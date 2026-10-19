@@ -137,9 +137,79 @@
 // }
 // console.log(count);
 
-let a = 2;
-const b = 5;
-for (let i = 0; i <= b; i++) {
-    console.log();
+// let a = 2;
+// const b = 5;
+// let c = 1
+// for (let i = 0; i < b; i++) {
+//     c *= a;
+// }
+// console.log(c);
+
+// const n = 5
+// let result = 1
+// if (Math.abs(n) === n) {
+//     for (let i = 1; i <= n; i++) {
+//         result = result * i
+//     }
+// }
+// console.log(result);
+
+// const n = 10
+// const a = 5
+// for (let i = 1; i <= n; i++) {
+//     console.log(`${a} x ${i} = ${a * i}`);
     
-}
+// }
+
+// const numbers = [4, 7, 2, 7, 9]
+// let target = 7
+// let result = 0
+// for (let i = 0; i < numbers.length; i++) {
+//     if (numbers[i] == target) {
+//         result = i
+//         break
+//     }else {
+//         result = -1
+//     }
+// }
+// console.log(result);
+
+// const word = "JavaScript"
+// let asciiCode = 0
+// for (let i = 0; i < word.length; i++) {
+//     if (word.charCodeAt(i) <= 90 && word.charCodeAt(i) >= 65) {
+//         ++asciiCode;
+//     }
+// }
+// console.log(asciiCode);
+
+// const number = 12
+// let result = 0
+// for (let i = 1; i <= number; i++) {
+//     if (number % i == 0) {
+//         console.log(i);
+        
+//     }
+// }
+
+// for (let i = 1; i <= 5; i++) {
+//     console.log("*".repeat(i));
+    
+// }
+
+// const numbers = [5, 12, 20, 8]
+// for (let i = 0; i < numbers.length; i++) {
+//     numbers[i] = numbers[i] + 10
+    
+// }
+// console.log(numbers);
+
+// const booleans = [false, false, true, true]
+// for (let i = 0; i < booleans.length; i++) {
+//     if (booleans[i] == false) {
+//         booleans[i] = true
+//     }
+// }
+// console.log(booleans);
+
+const products = [{ title: "Уут", price: 500 }, { title: "Сав", price: 800 }]
