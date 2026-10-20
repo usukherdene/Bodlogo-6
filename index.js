@@ -212,4 +212,65 @@
 // }
 // console.log(booleans);
 
-const products = [{ title: "Уут", price: 500 }, { title: "Сав", price: 800 }]
+// const products = [{ title: "Уут", price: 500 }, { title: "Сав", price: 800 }];
+// for (let i = 0; i < products.length; i++) {
+//     if (products[i].price > 600) {
+//         console.log(products[i]);
+//         break;
+//     }
+// }
+
+// const employees = [{ name: "Амгалан", department: "IT" }, { name: "Номин", department: "HR" }]
+// for (let i = 0; i < employees.length; i++) {
+//     console.log(employees[i].name);
+    
+// }
+
+// const students = [{ name: "Бат", score: 85 }, { name: "Сара", score: 92 }]
+// for (let i = 0; i < students.length; i++) {
+//     if (students[i].score > 90) {
+//         console.log(students[i].name);
+//     }
+// }
+
+// const products = [{ title: "Уут", stock: 5 }, { title: "Сав", stock: 0 }] 
+// for (let i = 0; i < products.length; i++) {
+//     if (products[i].stock !== 0) {
+//         console.log(products[i]);
+        
+//     }
+// }
+
+// const books = [{ title: "Монгол түүх", year: 2000 }, { title: "Газар зүй", year: 2010 }]
+// for (let i = 0; i < books.length; i++) {
+//     if (books[i].year > 2005) {
+//         console.log(books[i]);
+        
+//     }
+// }
+
+// const students = [{ name: "Бат", age: 20 }, { name: "Сара", age: 22 }]
+// let total = 0
+// for (let i = 0; i < students.length; i++) {
+//     total = total + students[i].age
+// }
+// console.log(total / students.length);
+
+// const products = [{ title: "Уут", price: 500 }, { title: "Сав", price: 800 }]
+// for (let i = 0; i < products.length; i++) {
+//     products[i].price = products[i].price / 100 * 10 +  products[i].price
+// }
+// console.log(products);
+
+// let employees = [
+//   { name: "Амгалан", salary: 1000, active: true, department: "IT" },
+//   { name: "Номин", salary: 1500, active: false, department: "HR" },
+//   { name: "Баяр", salary: 1200, active: true, department: "IT" }
+// ];
+// let total = 0
+// for (let i = 0; i < employees.length; i++) {
+//     if (employees[i].active == true) {
+//         total = total + employees[i].salary
+//     }
+// }
+// console.log(Math.floor(total / 2));
